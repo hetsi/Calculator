@@ -1,0 +1,10 @@
+
+.gitignore
+.idea/
+Calculator.iml
+bin/
+target/generated-sources/
+target/generated-test-sources/
+target/maven-status/maven-compiler-plugin/testCompile/
+target/surefire-reports/
+target/test-classes/
