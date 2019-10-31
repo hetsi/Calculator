@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 		public static void main(String[] args) {
 			Calculate calc = new Calculate();
-			calc.Operation();
+			//calc.Operation();
 		}
 		
 		public void Operation() {
@@ -26,8 +26,6 @@ import java.util.Scanner;
 			if(scan.hasNextInt()) {
 				selection = scan.nextInt();
 			}
-			
-				
 				System.out.println("Enter first num:");
 				if(scan.hasNextDouble()) {
 					fst = scan.nextDouble();
